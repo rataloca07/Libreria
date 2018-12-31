@@ -9,6 +9,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!--Ejemplo de cómo agregas estilos, guárda tus archivos .css en la carpeta css
+        <link href="css/estilos1.css" rel="stylesheet" type="text/css"/> -->
         <title>Esta es la página de inicio</title>
     </head>
     <body>
