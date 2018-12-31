@@ -15,5 +15,9 @@
     </head>
     <body>
         <h1>Página de Inicio</h1>
+        <nav>
+            <ul>Home</ul>
+            <ul>Contacto</ul>
+        </nav>
     </body>
 </html>
