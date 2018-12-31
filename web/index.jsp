@@ -17,6 +17,7 @@
         <h1>Página de Inicio</h1>
         <nav>
             <ul>Home</ul>
+            <ul>Proyectos</ul>
             <ul>Contacto</ul>
             <ul>Acerca de...</ul>
         </nav>
