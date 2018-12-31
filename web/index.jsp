@@ -18,6 +18,7 @@
         <nav>
             <ul>Home</ul>
             <ul>Contacto</ul>
+            <ul>Acerca de</ul>
         </nav>
         
         <footer>
