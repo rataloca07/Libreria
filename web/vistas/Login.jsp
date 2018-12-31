@@ -55,7 +55,7 @@
                         <a href="${pageContext.request.contextPath}/index.jsp" id="regresar" class="fas fa-arrow-circle-left"><span>  Regresar</span></a>
                     </div>
                     
-                    <p id="redireccionar">No tienes una cuenta?   <a href="${pageContext.request.contextPath}/vistaS/Registro.jsp" id="registrar">Registrar</a></p>
+                    <p id="redireccionar">No tienes una cuenta?   <a href="${pageContext.request.contextPath}/vistas/Registro.jsp" id="registrar">Registrar</a></p>
                     <!-- <input type="hidden" name="rol" value="usuario">-->
                 </form>
 
