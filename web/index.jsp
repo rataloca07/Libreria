@@ -16,11 +16,11 @@
          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
         <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-        <style>
-            nav div ul li #dropdown1{
-                top: -64px;
-            }
-        </style>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+        
         <title>Esta es la página de inicio</title>
     </head>
     <body>
@@ -46,6 +46,8 @@
                             </a>
                         </li>
                     </ul>
+                    
+                    
                 </div>  
             </nav>
         </div>
@@ -131,5 +133,6 @@
               M.AutoInit();
           });          
       </script>
+      <script src="${pageContext.request.contextPath}/js/script.js" type="text/javascript"></script>
     </body>
 </html>
