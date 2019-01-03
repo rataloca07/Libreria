@@ -34,10 +34,18 @@
                         <li><a href="#">Login</a></li>
                         <li><a href="#">Carrito</a></li>
                         <li><a href="#">Registro</a></li>
+                        <li>
+                            <a class="dropdown-trigger" href="#!" data-target="dropdown1">
+                                <i class="material-icons left">person</i>Usuario
+                                <i class="material-icons right">keyboard_arrow_down</i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
         </div>
+        
+        <!--Navbar movil   -->
         <ul class="sidenav" id="menu">
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Recomendados</a></li>
@@ -46,6 +54,14 @@
             <li><a href="#">Carrito</a></li>
             <li><a href="#">Registro</a></li>
         </ul>
+        
+        <!--  Submenu de prueba -->
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!">Mi perfil</a>
+            <li class="divider"></li>
+            <li><a href="#!">Cerrar sesion</a></li>
+        </ul>
+        
         
         <!--Probando que el navbar quede siempre en la parte  de arriba-->
         <br>
