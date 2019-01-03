@@ -16,6 +16,11 @@
          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
         <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+        <style>
+            nav div ul li #dropdown1{
+                top: -64px;
+            }
+        </style>
         <title>Esta es la página de inicio</title>
     </head>
     <body>
@@ -41,7 +46,7 @@
                             </a>
                         </li>
                     </ul>
-                </div>
+                </div>  
             </nav>
         </div>
         
@@ -126,6 +131,5 @@
               M.AutoInit();
           });          
       </script>
-          
     </body>
 </html>

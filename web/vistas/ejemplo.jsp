@@ -15,7 +15,19 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+ 
+<script type="text/javascript">
+	$(document).ready(function()
+	    {
+	    $("#boton").on( "click", function() {	 
+	        $('#target').toggle();
+	         });
+	    });
+</script>
+ 
+<input id="target" type="button" value="ESTE BOTÓN APARECE Y DESAPARECE">
+<input id="boton" type="button" value="toggle()">
        
     </body>
 </html>
